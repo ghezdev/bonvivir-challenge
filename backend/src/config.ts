@@ -15,20 +15,6 @@ const options: SwaggerJsdocOptions = {
       title: "BFF Docs",
       version,
     },
-    // components: {
-    //   securitySchemes: {
-    //     bearerAuth: {
-    //       type: "http",
-    //       scheme: "bearer",
-    //       bearerFormat: "JWT",
-    //     },
-    //   },
-    // },
-    // security: [
-    //   {
-    //     bearerAuth: [],
-    //   },
-    // ],
   },
   apis: ["./src/routes/*"],
 };
